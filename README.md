@@ -1,27 +1,25 @@
-# ClienteLembrete
+# Projeto Angular conectando com api RestFul
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.3.
+Esse projeto é um CRUD de lembrete com finalidade de criar conexões com uma api Restful
 
-## Development server
+# Pré requisitos
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Ter instalado o `node.js`, referência `https://nodejs.org/en/`
 
-## Code scaffolding
+Ter instalado o `angular-cli`, referência `https://cli.angular.io/`
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+# Clone
 
-## Build
+Para baixá-lo basta escolher um diretório desejado na sua máquina, acessar o ``cmd`` e digitar o seguinte comando `git clone https://github.com/gmcarvalho/conectando-angular-em-api-restful.git` 
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+# Npm install
 
-## Running unit tests
+Para baixar as dependências, abra o cmd apontando pra raiz do projeto e rode o seguinte comando `npm i ou npm install`.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Api Restful
 
-## Running end-to-end tests
+A api utilizada nesse projeto é de propriedade de professores do curso de Angular do DEV MEDIA, portanto para utilizar sua própria api é necessário alterar o environment.ts e alterar o endereço para o desejado. Lembrando que o roteamento deve ser alterado no `routing app` e também no serviço de `LembreteService.ts` caso pretenda mudar a url dos endpoints da sua aplicação.
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+## Start
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+Após isso tudo configurado é hora de rodar a aplicação, no terminal ainda na raiz do projeto rode o comando `ng serve`. A aplicação será startada e redirecionada para a url padrão `http://localhost:4200/`. Pronto! Agora é só jogar essa url no navegador.
